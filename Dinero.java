@@ -13,6 +13,6 @@ public class Dinero {
         int monedas1 = Integer.parseInt(System.console().readLine());
 
         int totalDinero = (billetes10*10)+(monedas5*5)+(monedas2*2)+(monedas1);
-        System.out.println("El total de dinero que posee es de: " + totalDinero);
+        System.out.println("El total de dinero que posee es de: " + totalDinero + "Bs.");
     }
 }
